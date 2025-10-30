@@ -8,7 +8,7 @@ class ProductService {
         name: 'Gaming PC Ryzen 7',
         category: 'PC',
         price: 1499.99,
-        imageUrl: 'https://via.placeholder.com/400x300.png?text=Gaming+PC',
+        imageUrl: 'https://i.pcmag.com/imagery/reviews/00B2H5RkSOPNPhASt8jGqLq-5-hero-image-gallery..v1744242002.jpg',
         description: 'Ryzen 7, 32GB RAM, RTX 4070, 1TB NVMe',
       ),
       Product(
@@ -16,7 +16,7 @@ class ProductService {
         name: 'Laptop Ultrabook 14"',
         category: 'Laptop',
         price: 1199.0,
-        imageUrl: 'https://via.placeholder.com/400x300.png?text=Ultrabook',
+        imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxpEof2HNEiLKqcn8aeOS8f85JEdf9LVEXOQ&s',
         description: 'Intel i7, 16GB RAM, 512GB SSD',
       ),
       Product(
@@ -24,7 +24,7 @@ class ProductService {
         name: 'Smartphone Pro',
         category: 'Phone',
         price: 899.0,
-        imageUrl: 'https://via.placeholder.com/400x300.png?text=Phone',
+        imageUrl: 'https://asiastore.kg/image/cache/catalog/1newpage/apple/iphone/iphone16/16basic/ultramarine/611-450x450.jpg',
         description: '6.7" OLED, 256GB, Triple camera',
       ),
     ];
