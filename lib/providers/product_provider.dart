@@ -14,6 +14,10 @@ class ProductProvider with ChangeNotifier {
   }
 
   Product? findById(String id) {
-    return _products.firstWhere((p) => p.id == id, orElse: () => _products.isNotEmpty ? _products[0] : null);
+    try {
+      return _products.firstWhere((p) => p.id == id);
+    } catch (e) {
+      return null;
+    }
   }
 }
